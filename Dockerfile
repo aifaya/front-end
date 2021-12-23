@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM cr-cn-beijing.volces.com/ty-microservices-demo/node:10-alpine
 ENV NODE_ENV "production"
 ENV PORT 8079
 EXPOSE 8079
